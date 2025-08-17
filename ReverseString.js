@@ -1,8 +1,8 @@
-function reverseString(str) {
-  let reversed = "";
-  for (let i = str.length - 1; i >= 0; i--) {
-    reversed += str[i];
+function ReverseString(val) {
+  let reverse = "";
+  for (let i = val.length - 1; i >= 0; i--) {
+    reverse += val[i];
   }
-  return reversed;
+  return reverse;
 }
-console.log(reverseString("hello"))
+console.log(ReverseString("hello"))
